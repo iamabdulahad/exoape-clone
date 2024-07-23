@@ -4,7 +4,7 @@ import React from 'react'
 const News = () => {
   
   return (
-    <div className='w-full h-[50vh] sm:h-[80vh] bg-white sm:mt-96'>
+    <div   className='w-full h-[50vh] sm:h-[80vh] bg-white sm:mt-96'>
          <h3 className="text- w-full  mb-10 flex justify-center  gap-3 h-fit items-center">
         <span className="">
           <svg
@@ -24,7 +24,7 @@ const News = () => {
         In the media
       </h3>
       <div className='w-full flex justify-center'>
-      <h1 className='w-[90%] sm:[50%] text-7xl sm:text-[10vw] px-10 text-center leading-none'>
+      <h1 className='w-[90%] sm:w-[50%] text-7xl sm:text-[10vw] px-10 text-center leading-none'>
         {["Spread","the News"].map((item,index)=> {
           return <motion.span key={index}
          initial={{ translateY: "40%", rotate: 20, opacity:0 }}

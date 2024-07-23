@@ -4,9 +4,9 @@ import space from "/video-6.mp4"
 const Footer = () => {
   return (
     <div className='overflow-hidden'>
-<div   className='w-full h-[70vh] sm:h-[110vh] bg-black relative'>
+<div data-scroll data-scroll-speed="-0.3"  className='w-full h-[70vh] sm:h-[110vh] bg-black relative'>
        <div className="background absolute overflow-hidden">
-        <video autoPlay muted loop className='w-full ml-32 mt-5 sm:ml-[30vw] ' src={space}></video>
+        <video autoPlay muted loop className='w-full ml-32 mt-5 sm:ml-[30vw] pointer-events-none ' src={space}></video>
        </div>
         <div className="div-container p-10 sm:p-40 absolute ">
             <div className="div-title text-7xl sm:text-[10vw] text-[#E0CCBB] ">
