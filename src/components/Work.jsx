@@ -47,6 +47,7 @@ const Work = () => {
             alt=""
           />
           <video
+            playsInline
             autoPlay
             muted
             loop
@@ -93,6 +94,7 @@ const Work = () => {
               />
 
               <video 
+                playsInline
                 autoPlay
                 muted
                 loop
@@ -124,6 +126,7 @@ const Work = () => {
               alt=""
             />
             <video
+              playsInline
               autoPlay
               muted
               loop
@@ -147,6 +150,7 @@ const Work = () => {
                 alt=""
               />
               <video 
+                playsInline
                 autoPlay
                 muted
                 loop

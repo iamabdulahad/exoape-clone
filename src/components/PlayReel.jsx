@@ -42,7 +42,7 @@ const PlayReel = () => {
     <div ref={parent} className='relative w-full h-full mt-96 bg-black text-white flex items-center justify-center overflow-hidden'>
     <div ref={videodiv} className='w-48 sm:w-[30vw] aspect-video bg-red-100 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 sm:-translate-y-1/2 sm:-translate-x-1/2'>
 
-    <video autoPlay muted loop className='w-full h-full object-cover scale-1.2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src="https://player.vimeo.com/progressive_redirect/playback/724832427/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0ed44a0255edf7f44c0925e951a269426f3f4eb5a6c46f83df7da03d07e795aa"></video>
+    <video playsInline autoPlay muted loop className='w-full h-full object-cover  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src="https://player.vimeo.com/progressive_redirect/playback/724832427/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0ed44a0255edf7f44c0925e951a269426f3f4eb5a6c46f83df7da03d07e795aa"></video>
 
     </div>
     <div className='absolute overlay w-full h-full flex flex-col justify-between py-20'>

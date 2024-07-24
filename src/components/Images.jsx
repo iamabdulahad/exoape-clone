@@ -74,6 +74,7 @@ const Images = () => {
           className="absolute w-40 sm:w-[25vw] h-[6rem] sm:h-[25vh] bg-red-500 -left-28 sm:-left-80 top-1/3"
         >
           <video
+            playsInline
             autoPlay
             loop
             muted
@@ -96,6 +97,7 @@ const Images = () => {
           className="absolute w-32 sm:w-[25vw] h-[10rem] sm:h-[50vh] bg-red-500 -right-[22%] -bottom-[7rem] sm:-bottom-96"
         >
           <video
+            playsInline
             autoPlay
             muted
             loop
